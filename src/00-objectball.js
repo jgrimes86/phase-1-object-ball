@@ -1,4 +1,5 @@
-function gameObject () {
+function gameObject() {
+    return {
     home: {
     teamName: 'Brooklyn Nets',
     colors: ['Black', 'White',],
@@ -112,6 +113,6 @@ away:{
         },
     },
 },
-
+    }
 }
 console.log(gameObject());
